@@ -1,0 +1,528 @@
+body,div,h1,h2,h3,h4,h5,h6,input,header,main,ul,li,footer,p,span,section{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+   /* width:100%;*/
+}
+body{
+	/*width:100%;
+	height:100%;*/
+    background: url(images/tower.jpg) no-repeat;
+   font-size: 14px;
+    font-family: "microsoft yahei";
+    -webkit-background-size:  100% ;
+    background-size: 100% ;
+    color: #222;
+	 /*filter:alpha(opacity=50);   
+      -moz-opacity:0.5;   
+      -khtml-opacity: 0.5;   
+      opacity: 0.5;   */
+	 
+	
+}
+header{
+    
+	height:10%;
+   padding-left: 8%;
+   background: rgba(100, 100, 100, 0.6);
+ 
+ }
+h1{
+  padding-right: 2%;
+ font-size: 2.0em;
+ line-height:158.5%;
+   float:left;
+  }
+#weather_search{
+  
+	margin-top: 0.4em;
+    float: left;
+}
+#weather_search span{
+  
+	height: 2.0em;
+    float: left;
+}
+#text{
+    padding: 0 6px 0 6px;
+    background: #fff;
+    font-size: 14px;
+  
+   width: 17.0em;
+    height:2.2em;
+    border: none;
+    outline: none;
+}
+#btn{
+   
+	width:125%;
+   height:2.3em;
+    border: none;
+    background: rgba(255,255,255,0.5);
+    color: #333;
+    outline: none;
+    cursor: pointer;
+}
+#btn:hover{
+    background: rgba(255, 255, 255, 0.3);
+}
+section{
+   
+	padding-top: 5%;
+}
+#today_container{
+ 
+    width: 70%;
+    margin: 0 auto;
+   /*background: rgba(100,100,100,0.3);*/
+    overflow: hidden;
+}
+#today_container div img {
+  margin: 0 4% 0 3%;
+    float: left;
+}
+ .main_info{
+    font-size: 24px;
+  margin-bottom: 1%;
+}
+ .main_info span{
+   margin: 0 2%;
+}
+ .main_info span:first-child{
+    margin-left: 0;
+}
+ .more_info {
+   
+	margin-top: 1%;
+    font-size: 16px;
+}
+ .more_info span{
+   
+	 margin: 0 2% 0 0;
+}
+#future_container{
+   
+    margin: 6% auto 0 auto;
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+	
+	
+}
+#future_container div{
+	
+
+	
+    float: left;
+	width: 15%;
+    padding: 2% 0;
+    margin: 0 2.5%;
+	/* background: rgba(100, 100, 100, 0.3);*/
+	
+	
+	
+}
+#future_container div:hover{
+    background: rgba(200,200,200,0.5);
+}
+#future_container div span{
+    display: block;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer div{
+    width: 175px;
+    margin: 0 auto;
+}
+
+/*****我的****/
+
+@media screen and ( min-width: 320px ) and ( max-width: 410px ){
+	body{
+		background: url(images/cao.jpg) no-repeat;
+	-webkit-background-size:100% 100% ;
+    background-size: 100% 100%  ;
+	}
+	header{
+	   height:8%;
+	  padding-left: 2%;
+	   
+    }
+	h1{
+	 padding-right: 2%;
+	 font-size: 1.3em;
+	line-height:250.5%;
+}
+ #text{
+     width: 12.0em;
+    height:2.2em;
+	margin-top:1%;
+ }
+#btn{
+   width:120%;
+   margin-top:3%;
+  }
+section{
+   
+	padding-top: 10%;
+}
+#today_container{
+ 
+    width: 100%;
+    margin: 0 auto;
+  /*background: rgba(100,100,100,0.3);*/
+   /*background:red;*/
+    overflow: hidden;
+}
+#today_container div img {
+  margin: 1% 1% 0 1%;
+    float: left;
+}
+ .main_info{
+    font-size: 20px;
+  margin-bottom: 1%;
+}
+ .main_info span{
+   margin: 0 2%;
+}
+ .main_info span:first-child{
+    margin-left: 0;
+}
+ .more_info {
+   
+	margin-top: 1%;
+    font-size: 16px;
+}
+ .more_info span{
+   
+	 margin: 0 2% 0 0;
+}
+#future_container{
+   
+    margin: 12% auto 0 auto;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+	
+	
+}
+#future_container div{
+	
+
+	
+    float: left;
+	width: 17.5%;
+
+    padding: 2% 0;
+   /* margin: 0 2.5%;*/
+   margin: 0 1.2%;
+	/* background: rgba(100, 100, 100, 0.3);*/
+	/*background:red;*/
+	
+	
+}
+#future_container div:hover{
+    background: rgba(200,200,200,0.5);
+}
+#future_container div span{
+    display: block;
+}
+#future_container div img{
+    display: block;
+	width:70%;
+}
+}
+@media screen and ( min-width: 411px ) and ( max-width:480px ){
+	body{
+		background: url(images/cao.jpg) no-repeat;
+	-webkit-background-size:100% 100% ;
+    background-size: 100% 100%  ;
+	}
+	header{
+	   height:9%;
+	  padding-left: 1%;
+	   
+    }
+	h1{
+	 padding-right: 1%;
+	 font-size: 2.0em;
+	line-height:255.5%;
+}
+ #text{
+     width: 12.2em;
+    height:2.2em;
+	margin-top:8%;
+ }
+#btn{
+   width:120%;
+   margin-top:25%;
+  }
+section{
+   
+	padding-top: 10%;
+}
+#today_container{
+ 
+    width: 100%;
+    margin: 0 auto;
+   /*background: rgba(100,100,100,0.3);*/
+   /* background: red;*/
+    overflow: hidden;
+}
+#today_container div img {
+  margin: 0 1% 0 1%;
+    float: left;
+}
+ .main_info{
+    font-size: 20px;
+  margin-bottom: 1%;
+}
+ .main_info span{
+   margin: 0 2%;
+}
+ .main_info span:first-child{
+    margin-left: 0;
+}
+ .more_info {
+   
+	margin-top: 1%;
+    font-size: 16px;
+}
+ .more_info span{
+   
+	 margin: 0 2% 0 0;
+}
+#future_container{
+   
+    margin: 12% auto 0 auto;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+	
+	
+}
+#future_container div{
+	
+
+	
+    float: left;
+	width: 17.5%;
+
+    padding: 2% 0;
+   /* margin: 0 2.5%;*/
+   margin: 0 1.2%;
+	 /*background: rgba(100, 100, 100, 0.3);*/
+	
+	
+	
+}
+#future_container div:hover{
+    background: rgba(200,200,200,0.5);
+}
+#future_container div span{
+    display: block;
+}
+#future_container div img{
+    display: block;
+	width:78%;
+}
+}
+@media screen and ( min-width: 481px ) and ( max-width:560px ){
+	body{
+		background: url(images/cao.jpg) no-repeat;
+	-webkit-background-size:100% 100% ;
+    background-size: 100% 100%  ;
+	}
+	header{
+	   height:9%;
+	  padding-left: 1%;
+	   
+    }
+	h1{
+	 padding-right: 1%;
+	 font-size: 2.0em;
+	line-height:255.5%;
+}
+ #text{
+     width: 12.2em;
+    height:2.2em;
+	margin-top:8%;
+ }
+#btn{
+   width:120%;
+   margin-top:25%;
+  }
+section{
+   
+	padding-top: 10%;
+}
+#today_container{
+ 
+    width: 100%;
+    margin: 0 auto;
+  /* background: rgba(100,100,100,0.3);*/
+    overflow: hidden;
+}
+#today_container div img {
+  margin: 0 1% 0 1%;
+    float: left;
+}
+ .main_info{
+    font-size: 20px;
+  margin-bottom: 1%;
+}
+ .main_info span{
+   margin: 0 2%;
+}
+ .main_info span:first-child{
+    margin-left: 0;
+}
+ .more_info {
+   
+	margin-top: 1%;
+    font-size: 16px;
+}
+ .more_info span{
+   
+	 margin: 0 2% 0 0;
+}
+#future_container{
+   
+    margin: 12% auto 0 auto;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+	
+	
+}
+#future_container div{
+	
+
+	
+    float: left;
+	width: 17.5%;
+
+    padding: 2% 0;
+   /* margin: 0 2.5%;*/
+   margin: 0 1.2%;
+	 /*background: rgba(100, 100, 100, 0.3);*/
+	
+	
+	
+}
+#future_container div:hover{
+    background: rgba(200,200,200,0.5);
+}
+#future_container div span{
+    display: block;
+}
+#future_container div img{
+    display: block;
+	width:78%;
+}
+
+}
+@media screen and ( min-width: 561px ) and ( max-width:620px ){
+	body{
+		background: url(images/cao.jpg) no-repeat;
+	-webkit-background-size:100% 100% ;
+    background-size: 100% 100%  ;
+	}
+	header{
+	   height:9%;
+	  padding-left: 4%;
+	   
+    }
+	h1{
+	 padding-right: 1%;
+	 font-size: 3.1em;
+	line-height:200.5%;
+	padding-top:1%;
+}
+ #text{
+     width: 17em;
+    height:3.4em;
+	margin-top:8%;
+ }
+#btn{
+   width:120%;
+   margin-top:36%;
+    height:3.5em;
+  }
+section{
+   
+	padding-top: 60%;
+	/*margin-top:15%;*/
+}
+#today_container{
+ 
+    width: 100%;
+    margin: 0 auto;
+  /* background: rgba(100,100,100,0.3);*/
+    overflow: hidden;
+}
+#today_container div img {
+  margin: 1% 1% 0 1%;
+    float: left;
+}
+ .main_info{
+    font-size: 28px;
+  margin-bottom: 1%;
+}
+ .main_info span{
+   margin: 0 2%;
+}
+ .main_info span:first-child{
+    margin-left: 0;
+}
+ .more_info {
+   
+	margin-top: 1%;
+    font-size: 22px;
+}
+ .more_info span{
+   
+	 margin: 0 2% 0 0;
+}
+#future_container{
+   
+    margin: 14% auto 0 auto;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+	
+	
+}
+#future_container div{
+	
+
+	
+    float: left;
+	width: 17.5%;
+
+    padding: 2% 0;
+   /* margin: 0 2.5%;*/
+   margin: 0 1.2%;
+	/* background: rgba(100, 100, 100, 0.3);*/
+	
+	
+	
+}
+#future_container div:hover{
+    background: rgba(200,200,200,0.5);
+}
+#future_container div span{
+    display: block;
+	font-size:22px;
+}
+#future_container div img{
+    display: block;
+	width:78%;
+}
+
+}
